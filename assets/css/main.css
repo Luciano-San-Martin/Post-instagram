@@ -15,11 +15,11 @@ body {
 article.post {
     display: flex;
     flex-direction: column;
-    width: 400px;
-    height: 550px;
+    width: 600px;
+    height: 750px;
     background-color: white;
     margin: 0 auto;
-    border: 1px rgb(19, 19, 228) solid;
+    border: 1px rgb(0, 0, 0) solid;
 }
 article.post header div.logo {
     display: flex;
@@ -33,7 +33,47 @@ header.partealta{
     display: flex;
     justify-content: space-between;
 }
-.HTML5 {
-    width: 3px;
-    height: 20px;
+header div.logo i {
+    font-size: 40px;
+}
+header div.logo h1 {
+    font-size: 15px;
+}
+header div.logo h2 {
+    font-size: 15px;
+}
+header div.opciones i{
+    font-size: 30px;
+}
+section img {
+    width: 595px;
+    height: 400px;
+    padding: 0px;
+    margin: 0px;
+}
+div.iconos {
+    display: flex;
+    flex-direction: row;
+}
+div.iconos div.corazon {
+    font-size: 30px;
+}
+div.iconos div.globo {
+    font-size: 30px;
+}
+div.iconos div.avion {
+    font-size: 30px;
+}
+div.guardar {
+    font-size: 30px;
+    display: flex;
+    justify-content: end;
+}
+section.partemedia {
+    display: flex;
+    justify-content: space-between;
+}
+section.likes {
+    display: flex;
+    flex-direction: row;
 }
